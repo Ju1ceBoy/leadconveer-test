@@ -43,6 +43,11 @@
 			transition: all .4s ease-in-out;
 			cursor: pointer;
 			font-size: 24px;
+
+			a {
+				text-decoration: none;
+			}
+
 			&:hover {
 				color: #C0C0C0;
 			}
@@ -56,15 +61,12 @@
 		align-items: center;
 		width: 100%;
 
-
-
-
 		&-tel {
 			font-weight: 400;
 			font-size: 32px;
 			line-height: 100%;
 			color: #fff;
-			text-decoration: none
+			text-decoration: none;
 		}
 	}
 }

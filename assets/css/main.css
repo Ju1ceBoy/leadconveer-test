@@ -62,12 +62,16 @@
   list-style: none;
   text-decoration: none;
   color: #fff;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
   cursor: pointer;
   font-size: 24px;
 }
-.header__nav-item:hover {
+.header__nav-item a {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+}
+.header__nav-item a:hover {
   color: #C0C0C0;
 }
 .header__contacts {
@@ -86,6 +90,7 @@
   font-size: 32px;
   line-height: 100%;
   color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 991px) {
@@ -457,7 +462,13 @@
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.footer__nav-item:hover {
+.footer__nav-item a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  color: #808080;
+}
+.footer__nav-item a:hover {
   color: #FF6600;
 }
 .footer__nav-separator {
